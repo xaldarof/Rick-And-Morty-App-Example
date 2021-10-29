@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DaggerHilt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">ADD</string>
+    <string name="remove">remove</string>
+    <string name="id">id</string>
+    <string name="no_connection">No internet connection...</string>
+    <string name="retry">RETRY</string>
+</resources>
