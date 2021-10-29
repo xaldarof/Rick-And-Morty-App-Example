@@ -4,20 +4,70 @@ package com.example.daggerhilt.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.daggerhilt.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentInformationBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private FragmentInformationBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final CardView cardView2;
+
+  @NonNull
+  public final ImageView characterImg;
+
+  @NonNull
+  public final TextView createdTimeTv;
+
+  @NonNull
+  public final TextView genderTv;
+
+  @NonNull
+  public final ImageView img1;
+
+  @NonNull
+  public final ImageView img2;
+
+  @NonNull
+  public final ImageView img3;
+
+  @NonNull
+  public final TextView locationTv;
+
+  @NonNull
+  public final RelativeLayout relativeLayout;
+
+  @NonNull
+  public final RelativeLayout relativeLayout2;
+
+  private FragmentInformationBinding(@NonNull ConstraintLayout rootView,
+      @NonNull CardView cardView2, @NonNull ImageView characterImg, @NonNull TextView createdTimeTv,
+      @NonNull TextView genderTv, @NonNull ImageView img1, @NonNull ImageView img2,
+      @NonNull ImageView img3, @NonNull TextView locationTv, @NonNull RelativeLayout relativeLayout,
+      @NonNull RelativeLayout relativeLayout2) {
     this.rootView = rootView;
+    this.cardView2 = cardView2;
+    this.characterImg = characterImg;
+    this.createdTimeTv = createdTimeTv;
+    this.genderTv = genderTv;
+    this.img1 = img1;
+    this.img2 = img2;
+    this.img3 = img3;
+    this.locationTv = locationTv;
+    this.relativeLayout = relativeLayout;
+    this.relativeLayout2 = relativeLayout2;
   }
 
   @Override
@@ -43,10 +93,74 @@ public final class FragmentInformationBinding implements ViewBinding {
 
   @NonNull
   public static FragmentInformationBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.cardView2;
+      CardView cardView2 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView2 == null) {
+        break missingId;
+      }
 
-    return new FragmentInformationBinding((ConstraintLayout) rootView);
+      id = R.id.characterImg;
+      ImageView characterImg = ViewBindings.findChildViewById(rootView, id);
+      if (characterImg == null) {
+        break missingId;
+      }
+
+      id = R.id.createdTimeTv;
+      TextView createdTimeTv = ViewBindings.findChildViewById(rootView, id);
+      if (createdTimeTv == null) {
+        break missingId;
+      }
+
+      id = R.id.genderTv;
+      TextView genderTv = ViewBindings.findChildViewById(rootView, id);
+      if (genderTv == null) {
+        break missingId;
+      }
+
+      id = R.id.img1;
+      ImageView img1 = ViewBindings.findChildViewById(rootView, id);
+      if (img1 == null) {
+        break missingId;
+      }
+
+      id = R.id.img2;
+      ImageView img2 = ViewBindings.findChildViewById(rootView, id);
+      if (img2 == null) {
+        break missingId;
+      }
+
+      id = R.id.img3;
+      ImageView img3 = ViewBindings.findChildViewById(rootView, id);
+      if (img3 == null) {
+        break missingId;
+      }
+
+      id = R.id.locationTv;
+      TextView locationTv = ViewBindings.findChildViewById(rootView, id);
+      if (locationTv == null) {
+        break missingId;
+      }
+
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.relativeLayout2;
+      RelativeLayout relativeLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout2 == null) {
+        break missingId;
+      }
+
+      return new FragmentInformationBinding((ConstraintLayout) rootView, cardView2, characterImg,
+          createdTimeTv, genderTv, img1, img2, img3, locationTv, relativeLayout, relativeLayout2);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

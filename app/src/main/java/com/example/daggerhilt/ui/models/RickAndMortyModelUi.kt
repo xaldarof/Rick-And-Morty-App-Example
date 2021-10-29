@@ -1,5 +1,7 @@
 package com.example.daggerhilt.ui.models
 
+import java.io.Serializable
+
 
 data class RickAndMortyModelUi(
     val id:Int,
@@ -8,4 +10,4 @@ data class RickAndMortyModelUi(
     val gender:String,
     val location:String,
     val image:String
-)
+):Serializable

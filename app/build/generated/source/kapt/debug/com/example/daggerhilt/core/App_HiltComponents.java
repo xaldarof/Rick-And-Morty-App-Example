@@ -6,7 +6,7 @@ import com.example.daggerhilt.data.cloud.di.CloudModule;
 import com.example.daggerhilt.ui.activity.MainActivity_GeneratedInjector;
 import com.example.daggerhilt.ui.fragments.CharactersFragment_GeneratedInjector;
 import com.example.daggerhilt.ui.fragments.InformationFragment_GeneratedInjector;
-import com.example.daggerhilt.vm.CharactersViewModel_HiltModules;
+import com.example.daggerhilt.vm.CommonViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -147,7 +147,7 @@ public final class App_HiltComponents {
       modules = {
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class,
-          CharactersViewModel_HiltModules.KeyModule.class,
+          CommonViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class
       }
   )
@@ -185,7 +185,7 @@ public final class App_HiltComponents {
 
   @Subcomponent(
       modules = {
-          CharactersViewModel_HiltModules.BindsModule.class,
+          CommonViewModel_HiltModules.BindsModule.class,
           HiltWrapper_HiltViewModelFactory_ViewModelModule.class
       }
   )

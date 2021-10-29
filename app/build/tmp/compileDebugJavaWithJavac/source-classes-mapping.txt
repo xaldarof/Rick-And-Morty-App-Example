@@ -1,47 +1,9 @@
-com/example/daggerhilt/data/cache/data_source/RickAndMortyRepository_Base_Factory.java
- com.example.daggerhilt.data.cache.data_source.RickAndMortyRepository_Base_Factory
-com/example/daggerhilt/vm/CharactersViewModel_HiltModules.java
- com.example.daggerhilt.vm.CharactersViewModel_HiltModules
- com.example.daggerhilt.vm.CharactersViewModel_HiltModules$BindsModule
- com.example.daggerhilt.vm.CharactersViewModel_HiltModules$KeyModule
-com/example/daggerhilt/BuildConfig.java
- com.example.daggerhilt.BuildConfig
-com/example/daggerhilt/databinding/LoadingItemLayoutBinding.java
- com.example.daggerhilt.databinding.LoadingItemLayoutBinding
-com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideCoreDaoFactory.java
- com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideCoreDaoFactory
 com/example/daggerhilt/core/App_GeneratedInjector.java
  com.example.daggerhilt.core.App_GeneratedInjector
-com/example/daggerhilt/databinding/ActivityMainBinding.java
- com.example.daggerhilt.databinding.ActivityMainBinding
-com/example/daggerhilt/data/cache/data_source/RickAndMortyRemoteMediator_Factory.java
- com.example.daggerhilt.data.cache.data_source.RickAndMortyRemoteMediator_Factory
-hilt_aggregated_deps/_com_example_daggerhilt_core_App_GeneratedInjector.java
- hilt_aggregated_deps._com_example_daggerhilt_core_App_GeneratedInjector
-hilt_aggregated_deps/_com_example_daggerhilt_vm_CharactersViewModel_HiltModules_BindsModule.java
- hilt_aggregated_deps._com_example_daggerhilt_vm_CharactersViewModel_HiltModules_BindsModule
-com/example/daggerhilt/databinding/ItemLayoutBinding.java
- com.example.daggerhilt.databinding.ItemLayoutBinding
-com/example/daggerhilt/data/cloud/di/CloudModule_ProvideServiceFactory.java
- com.example.daggerhilt.data.cloud.di.CloudModule_ProvideServiceFactory
-hilt_aggregated_deps/_com_example_daggerhilt_data_cache_di_CacheDataModule.java
- hilt_aggregated_deps._com_example_daggerhilt_data_cache_di_CacheDataModule
-hilt_aggregated_deps/_com_example_daggerhilt_vm_CharactersViewModel_HiltModules_KeyModule.java
- hilt_aggregated_deps._com_example_daggerhilt_vm_CharactersViewModel_HiltModules_KeyModule
-com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideDatabaseFactory.java
- com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideDatabaseFactory
-com/example/daggerhilt/data/cloud/di/CloudModule_ProvideRetrofitInstanceFactory.java
- com.example.daggerhilt.data.cloud.di.CloudModule_ProvideRetrofitInstanceFactory
- com.example.daggerhilt.data.cloud.di.CloudModule_ProvideRetrofitInstanceFactory$InstanceHolder
-com/example/daggerhilt/data/cache/core/AppDataBase_Impl.java
- com.example.daggerhilt.data.cache.core.AppDataBase_Impl
- com.example.daggerhilt.data.cache.core.AppDataBase_Impl$1
-hilt_aggregated_deps/_com_example_daggerhilt_data_cloud_di_CloudModule.java
- hilt_aggregated_deps._com_example_daggerhilt_data_cloud_di_CloudModule
-dagger/hilt/internal/processedrootsentinel/codegen/_com_example_daggerhilt_core_App.java
- dagger.hilt.internal.processedrootsentinel.codegen._com_example_daggerhilt_core_App
-com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideLogRepositoryFactory.java
- com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideLogRepositoryFactory
+com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideCoreDaoFactory.java
+ com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideCoreDaoFactory
+com/example/daggerhilt/BuildConfig.java
+ com.example.daggerhilt.BuildConfig
 com/example/daggerhilt/data/cache/dao/RickAndMortyDao_Impl.java
  com.example.daggerhilt.data.cache.dao.RickAndMortyDao_Impl
  com.example.daggerhilt.data.cache.dao.RickAndMortyDao_Impl$1
@@ -50,32 +12,79 @@ com/example/daggerhilt/data/cache/dao/RickAndMortyDao_Impl.java
  com.example.daggerhilt.data.cache.dao.RickAndMortyDao_Impl$4
  com.example.daggerhilt.data.cache.dao.RickAndMortyDao_Impl$5
  com.example.daggerhilt.data.cache.dao.RickAndMortyDao_Impl$5$1
+com/example/daggerhilt/data/cloud/di/CloudModule_ProvideRetrofitInstanceFactory.java
+ com.example.daggerhilt.data.cloud.di.CloudModule_ProvideRetrofitInstanceFactory
+ com.example.daggerhilt.data.cloud.di.CloudModule_ProvideRetrofitInstanceFactory$InstanceHolder
+dagger/hilt/internal/aggregatedroot/codegen/_com_example_daggerhilt_core_App.java
+ dagger.hilt.internal.aggregatedroot.codegen._com_example_daggerhilt_core_App
+com/example/daggerhilt/core/Hilt_App.java
+ com.example.daggerhilt.core.Hilt_App
+ com.example.daggerhilt.core.Hilt_App$1
+com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideLogRepositoryFactory.java
+ com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideLogRepositoryFactory
+hilt_aggregated_deps/_com_example_daggerhilt_vm_CommonViewModel_HiltModules_KeyModule.java
+ hilt_aggregated_deps._com_example_daggerhilt_vm_CommonViewModel_HiltModules_KeyModule
+hilt_aggregated_deps/_com_example_daggerhilt_ui_fragments_CharactersFragment_GeneratedInjector.java
+ hilt_aggregated_deps._com_example_daggerhilt_ui_fragments_CharactersFragment_GeneratedInjector
+hilt_aggregated_deps/_com_example_daggerhilt_ui_fragments_InformationFragment_GeneratedInjector.java
+ hilt_aggregated_deps._com_example_daggerhilt_ui_fragments_InformationFragment_GeneratedInjector
+com/example/daggerhilt/data/cloud/di/CloudModule_ProvideServiceFactory.java
+ com.example.daggerhilt.data.cloud.di.CloudModule_ProvideServiceFactory
 hilt_aggregated_deps/_com_example_daggerhilt_ui_activity_MainActivity_GeneratedInjector.java
  hilt_aggregated_deps._com_example_daggerhilt_ui_activity_MainActivity_GeneratedInjector
-com/example/daggerhilt/vm/CharactersViewModel_Factory.java
- com.example.daggerhilt.vm.CharactersViewModel_Factory
-com/example/daggerhilt/databinding/FragmentCharactersBinding.java
- com.example.daggerhilt.databinding.FragmentCharactersBinding
+hilt_aggregated_deps/_com_example_daggerhilt_core_App_GeneratedInjector.java
+ hilt_aggregated_deps._com_example_daggerhilt_core_App_GeneratedInjector
+hilt_aggregated_deps/_com_example_daggerhilt_vm_CommonViewModel_HiltModules_BindsModule.java
+ hilt_aggregated_deps._com_example_daggerhilt_vm_CommonViewModel_HiltModules_BindsModule
+com/example/daggerhilt/vm/CommonViewModel_HiltModules_KeyModule_ProvideFactory.java
+ com.example.daggerhilt.vm.CommonViewModel_HiltModules_KeyModule_ProvideFactory
+ com.example.daggerhilt.vm.CommonViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
+com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideRemoteDaoFactory.java
+ com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideRemoteDaoFactory
+dagger/hilt/internal/processedrootsentinel/codegen/_com_example_daggerhilt_core_App.java
+ dagger.hilt.internal.processedrootsentinel.codegen._com_example_daggerhilt_core_App
+hilt_aggregated_deps/_com_example_daggerhilt_data_cache_di_CacheDataModule.java
+ hilt_aggregated_deps._com_example_daggerhilt_data_cache_di_CacheDataModule
+com/example/daggerhilt/ui/activity/MainActivity_GeneratedInjector.java
+ com.example.daggerhilt.ui.activity.MainActivity_GeneratedInjector
 com/example/daggerhilt/ui/activity/Hilt_MainActivity.java
  com.example.daggerhilt.ui.activity.Hilt_MainActivity
  com.example.daggerhilt.ui.activity.Hilt_MainActivity$1
-com/example/daggerhilt/ui/activity/MainActivity_GeneratedInjector.java
- com.example.daggerhilt.ui.activity.MainActivity_GeneratedInjector
-com/example/daggerhilt/vm/CharactersViewModel_HiltModules_KeyModule_ProvideFactory.java
- com.example.daggerhilt.vm.CharactersViewModel_HiltModules_KeyModule_ProvideFactory
- com.example.daggerhilt.vm.CharactersViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
-dagger/hilt/internal/aggregatedroot/codegen/_com_example_daggerhilt_core_App.java
- dagger.hilt.internal.aggregatedroot.codegen._com_example_daggerhilt_core_App
 com/example/daggerhilt/data/cache/dao/RemoteKeyDao_Impl.java
  com.example.daggerhilt.data.cache.dao.RemoteKeyDao_Impl
  com.example.daggerhilt.data.cache.dao.RemoteKeyDao_Impl$1
  com.example.daggerhilt.data.cache.dao.RemoteKeyDao_Impl$2
-com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideRemoteDaoFactory.java
- com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideRemoteDaoFactory
-hilt_aggregated_deps/_com_example_daggerhilt_ui_fragments_InformationFragment_GeneratedInjector.java
- hilt_aggregated_deps._com_example_daggerhilt_ui_fragments_InformationFragment_GeneratedInjector
-hilt_aggregated_deps/_com_example_daggerhilt_ui_fragments_CharactersFragment_GeneratedInjector.java
- hilt_aggregated_deps._com_example_daggerhilt_ui_fragments_CharactersFragment_GeneratedInjector
+com/example/daggerhilt/data/cache/core/AppDataBase_Impl.java
+ com.example.daggerhilt.data.cache.core.AppDataBase_Impl
+ com.example.daggerhilt.data.cache.core.AppDataBase_Impl$1
+hilt_aggregated_deps/_com_example_daggerhilt_data_cloud_di_CloudModule.java
+ hilt_aggregated_deps._com_example_daggerhilt_data_cloud_di_CloudModule
+com/example/daggerhilt/data/cache/data_source/RickAndMortyRepository_Base_Factory.java
+ com.example.daggerhilt.data.cache.data_source.RickAndMortyRepository_Base_Factory
+com/example/daggerhilt/data/cache/di/CacheDataModule_ProvideDatabaseFactory.java
+ com.example.daggerhilt.data.cache.di.CacheDataModule_ProvideDatabaseFactory
+com/example/daggerhilt/vm/CommonViewModel_Factory.java
+ com.example.daggerhilt.vm.CommonViewModel_Factory
+com/example/daggerhilt/vm/CommonViewModel_HiltModules.java
+ com.example.daggerhilt.vm.CommonViewModel_HiltModules
+ com.example.daggerhilt.vm.CommonViewModel_HiltModules$BindsModule
+ com.example.daggerhilt.vm.CommonViewModel_HiltModules$KeyModule
+com/example/daggerhilt/data/cache/data_source/RickAndMortyRemoteMediator_Factory.java
+ com.example.daggerhilt.data.cache.data_source.RickAndMortyRemoteMediator_Factory
+com/example/daggerhilt/databinding/FragmentCharactersBinding.java
+ com.example.daggerhilt.databinding.FragmentCharactersBinding
+com/example/daggerhilt/databinding/FragmentInformationBinding.java
+ com.example.daggerhilt.databinding.FragmentInformationBinding
+com/example/daggerhilt/ui/fragments/Hilt_InformationFragment.java
+ com.example.daggerhilt.ui.fragments.Hilt_InformationFragment
+com/example/daggerhilt/ui/fragments/InformationFragment_GeneratedInjector.java
+ com.example.daggerhilt.ui.fragments.InformationFragment_GeneratedInjector
+com/example/daggerhilt/databinding/ActivityMainBinding.java
+ com.example.daggerhilt.databinding.ActivityMainBinding
+com/example/daggerhilt/databinding/ItemLayoutBinding.java
+ com.example.daggerhilt.databinding.ItemLayoutBinding
+com/example/daggerhilt/databinding/LoadingItemLayoutBinding.java
+ com.example.daggerhilt.databinding.LoadingItemLayoutBinding
 com/example/daggerhilt/ui/fragments/CharactersFragment_GeneratedInjector.java
  com.example.daggerhilt.ui.fragments.CharactersFragment_GeneratedInjector
 com/example/daggerhilt/core/App_HiltComponents.java
@@ -102,10 +111,6 @@ com/example/daggerhilt/core/App_HiltComponents.java
  com.example.daggerhilt.core.App_HiltComponents$ViewWithFragmentC
  com.example.daggerhilt.core.App_HiltComponents$ViewWithFragmentC$Builder
  com.example.daggerhilt.core.App_HiltComponents$ViewWithFragmentCBuilderModule
-com/example/daggerhilt/ui/fragments/Hilt_InformationFragment.java
- com.example.daggerhilt.ui.fragments.Hilt_InformationFragment
-com/example/daggerhilt/ui/fragments/InformationFragment_GeneratedInjector.java
- com.example.daggerhilt.ui.fragments.InformationFragment_GeneratedInjector
 com/example/daggerhilt/ui/fragments/Hilt_CharactersFragment.java
  com.example.daggerhilt.ui.fragments.Hilt_CharactersFragment
 com/example/daggerhilt/core/DaggerApp_HiltComponents_SingletonC.java
@@ -127,8 +132,3 @@ com/example/daggerhilt/core/DaggerApp_HiltComponents_SingletonC.java
  com.example.daggerhilt.core.DaggerApp_HiltComponents_SingletonC$Builder
  com.example.daggerhilt.core.DaggerApp_HiltComponents_SingletonC$ServiceCBuilder
  com.example.daggerhilt.core.DaggerApp_HiltComponents_SingletonC$ServiceCImpl
-com/example/daggerhilt/core/Hilt_App.java
- com.example.daggerhilt.core.Hilt_App
- com.example.daggerhilt.core.Hilt_App$1
-com/example/daggerhilt/databinding/FragmentInformationBinding.java
- com.example.daggerhilt.databinding.FragmentInformationBinding

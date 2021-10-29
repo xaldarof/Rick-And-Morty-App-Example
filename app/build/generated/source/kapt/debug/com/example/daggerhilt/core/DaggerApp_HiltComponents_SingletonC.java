@@ -19,8 +19,8 @@ import com.example.daggerhilt.data.cloud.di.CloudModule_ProvideServiceFactory;
 import com.example.daggerhilt.ui.activity.MainActivity;
 import com.example.daggerhilt.ui.fragments.CharactersFragment;
 import com.example.daggerhilt.ui.fragments.InformationFragment;
-import com.example.daggerhilt.vm.CharactersViewModel;
-import com.example.daggerhilt.vm.CharactersViewModel_HiltModules_KeyModule_ProvideFactory;
+import com.example.daggerhilt.vm.CommonViewModel;
+import com.example.daggerhilt.vm.CommonViewModel_HiltModules_KeyModule_ProvideFactory;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
 import dagger.hilt.android.internal.builders.ActivityRetainedComponentBuilder;
@@ -237,7 +237,7 @@ public final class DaggerApp_HiltComponents_SingletonC extends App_HiltComponent
 
       @Override
       public Set<String> getViewModelKeys() {
-        return Collections.<String>singleton(CharactersViewModel_HiltModules_KeyModule_ProvideFactory.provide());
+        return Collections.<String>singleton(CommonViewModel_HiltModules_KeyModule_ProvideFactory.provide());
       }
 
       @Override
@@ -357,28 +357,28 @@ public final class DaggerApp_HiltComponents_SingletonC extends App_HiltComponent
     }
 
     private final class ViewModelCImpl extends App_HiltComponents.ViewModelC {
-      private volatile Provider<CharactersViewModel> charactersViewModelProvider;
+      private volatile Provider<CommonViewModel> commonViewModelProvider;
 
       private ViewModelCImpl(SavedStateHandle savedStateHandle) {
 
       }
 
-      private CharactersViewModel charactersViewModel() {
-        return new CharactersViewModel(DaggerApp_HiltComponents_SingletonC.this.rickAndMortyRepository());
+      private CommonViewModel commonViewModel() {
+        return new CommonViewModel(DaggerApp_HiltComponents_SingletonC.this.rickAndMortyRepository());
       }
 
-      private Provider<CharactersViewModel> charactersViewModelProvider() {
-        Object local = charactersViewModelProvider;
+      private Provider<CommonViewModel> commonViewModelProvider() {
+        Object local = commonViewModelProvider;
         if (local == null) {
           local = new SwitchingProvider<>(0);
-          charactersViewModelProvider = (Provider<CharactersViewModel>) local;
+          commonViewModelProvider = (Provider<CommonViewModel>) local;
         }
-        return (Provider<CharactersViewModel>) local;
+        return (Provider<CommonViewModel>) local;
       }
 
       @Override
       public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-        return Collections.<String, Provider<ViewModel>>singletonMap("com.example.daggerhilt.vm.CharactersViewModel", (Provider) charactersViewModelProvider());
+        return Collections.<String, Provider<ViewModel>>singletonMap("com.example.daggerhilt.vm.CommonViewModel", (Provider) commonViewModelProvider());
       }
 
       private final class SwitchingProvider<T> implements Provider<T> {
@@ -392,8 +392,8 @@ public final class DaggerApp_HiltComponents_SingletonC extends App_HiltComponent
         @Override
         public T get() {
           switch (id) {
-            case 0: // com.example.daggerhilt.vm.CharactersViewModel 
-            return (T) ViewModelCImpl.this.charactersViewModel();
+            case 0: // com.example.daggerhilt.vm.CommonViewModel 
+            return (T) ViewModelCImpl.this.commonViewModel();
 
             default: throw new AssertionError(id);
           }

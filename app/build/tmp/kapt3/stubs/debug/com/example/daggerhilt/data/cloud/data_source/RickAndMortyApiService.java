@@ -12,7 +12,7 @@ public abstract interface RickAndMortyApiService {
     kotlin.coroutines.Continuation<? super com.example.daggerhilt.data.cloud.models.RickAndMortyCloudModel> continuation);
     
     @org.jetbrains.annotations.Nullable()
-    @retrofit2.http.GET(value = "character")
+    @retrofit2.http.GET(value = "character/{id}")
     public abstract java.lang.Object fetchCharacterById(@retrofit2.http.Path(value = "id")
     int id, @org.jetbrains.annotations.NotNull()
     kotlin.coroutines.Continuation<? super com.example.daggerhilt.data.cloud.models.Result> continuation);

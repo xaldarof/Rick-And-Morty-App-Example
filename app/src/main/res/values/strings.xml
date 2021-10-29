@@ -7,4 +7,8 @@
     <string name="id">id</string>
     <string name="no_connection">No internet connection...</string>
     <string name="retry">RETRY</string>
+    <string name="uzb">Uzbekistan</string>
+    <string name="time">2017-11-04T18:48:46.250Z</string>
+    <string name="downloading">Downloading...</string>
+    <string name="connection_error">Connection error...</string>
 </resources>

@@ -21,5 +21,7 @@
         android:id="@+id/informationFragment"
         android:name="com.example.daggerhilt.ui.fragments.InformationFragment"
         android:label="fragment_information"
-        tools:layout="@layout/fragment_information" />
+        tools:layout="@layout/fragment_information" >
+
+    </fragment>
 </navigation>

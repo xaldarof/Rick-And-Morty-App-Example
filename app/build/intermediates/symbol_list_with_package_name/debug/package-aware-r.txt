@@ -1823,11 +1823,13 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable die
+drawable ic_baseline_access_time_24
 drawable ic_baseline_arrow_downward_24
 drawable ic_baseline_favorite_24
 drawable ic_baseline_female_24
 drawable ic_baseline_location_on_24
 drawable ic_baseline_male_24
+drawable ic_baseline_person_24
 drawable ic_baseline_running_with_errors_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -1839,6 +1841,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_questionmark_83826
 drawable item_background
+drawable item_style
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1982,6 +1985,7 @@ id cache_measures
 id cancel_action
 id cancel_button
 id cardView
+id cardView2
 id carryVelocity
 id center
 id center_horizontal
@@ -2015,6 +2019,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id createdTimeTv
 id currentState
 id custom
 id customPanel
@@ -2075,6 +2080,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id genderImg
+id genderTv
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
@@ -2098,6 +2104,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id img1
+id img2
+id img3
 id immediateStop
 id included
 id info
@@ -2218,11 +2227,14 @@ id pin
 id position
 id postLayout
 id progress
+id progressView
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id relativeLayout
+id relativeLayout2
 id retryBtn
 id reverseSawtooth
 id right
@@ -2575,6 +2587,8 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string connection_error
+string downloading
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2651,6 +2665,8 @@ string remove
 string retry
 string search_menu_title
 string status_bar_notification_info_overflow
+string time
+string uzb
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

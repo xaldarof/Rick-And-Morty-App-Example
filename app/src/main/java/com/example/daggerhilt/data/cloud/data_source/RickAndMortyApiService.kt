@@ -12,9 +12,9 @@ interface RickAndMortyApiService {
     @GET("character")
     suspend fun fetchCharacters(@Query("page") page: Int): RickAndMortyCloudModel
 
-    @GET("character")
+
+    @GET("character/{id}")
     suspend fun fetchCharacterById(
-        @Path("id") id:Int
-    ):Result
+        @Path("id") id:Int):Result
 
 }
